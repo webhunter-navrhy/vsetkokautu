@@ -1,0 +1,90 @@
+{% extends "_base.html" %}
+{% set titulek = 'Všetko k autu – autopoťahy, autoservis a dovoz áut, Považská Bystrica' %}
+{% set cesta = '' %}
+{% block obsah %}
+<section class="hero">
+  <div class="hero-foto">{{ img('foto-02.jpg', 'Dielňa autoservisu Všetko k autu', sizes='100vw') }}</div>
+  <div class="wrap hero-text">
+    <p class="kicker">Považská Bystrica</p>
+    <h1>Všetko k autu pod jednou strechou</h1>
+    <p class="lead">Autopoťahy na mieru, autoservis a dovoz áut na objednávku. Odborne, komplexne a za výhodné ceny.</p>
+    <p class="hero-akcie"><a class="tlacitko" href="#kontakt">Napísať nám</a><a class="tlacitko druhe" href="#potahy">Čo ponúkame</a></p>
+  </div>
+</section>
+
+<section class="pas">
+  <div class="wrap pas-in">
+    <p><strong>Po–Pi 07:00–16:00</strong></p>
+    <p>Centrum 27/32, 017 01 Považská Bystrica</p>
+    <p><a href="tel:+421917582059">+421 917 582 059</a></p>
+  </div>
+</section>
+
+<section class="sekce rad" id="potahy">
+  <div class="wrap rad-in">
+    <div class="rad-foto">{{ img('foto-05.jpg', 'Autopoťahy na mieru v červenom prevedení', sizes='(min-width: 60rem) 36rem, 100vw') }}</div>
+    <div class="rad-text">
+      <h2>Autopoťahy na mieru</h2>
+      <p>Autopoťahy na mieru s garanciou kvality a bezpečnosti priamo od slovenského výrobcu MAD. Sme certifikovaný autorizovaný partner a poťahy vyrábame individuálne pre Vaše auto.</p>
+      <ul class="znacky" role="list">
+        <li>Kolekcie a cenníky</li>
+        <li>BABY paket</li>
+        <li>WINTER paket</li>
+        <li>Vlastné logo / výšivka</li>
+        <li>Montáž</li>
+      </ul>
+      <p>Showroom nájdete v Považskej Bystrici.</p>
+    </div>
+  </div>
+</section>
+
+<section class="sekce rad tmava" id="servis">
+  <div class="wrap rad-in obratene">
+    <div class="rad-foto">{{ img('foto-04.jpg', 'Kontrola brzdového kotúča v autoservise', sizes='(min-width: 60rem) 36rem, 100vw') }}</div>
+    <div class="rad-text">
+      <h2>Autoservis</h2>
+      <p>Rozsiahle a spoľahlivé servisné služby. Pokazilo sa Vám auto, potrebujete náhradný diel alebo sa Vám do motorovej časti nasťahovali kuny? Ochotne poradíme.</p>
+      <ul class="znacky" role="list">
+        <li>Servis osobných áut</li>
+        <li>Autoklimatizácie</li>
+        <li>Náhradné diely</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="sekce rad" id="dovoz">
+  <div class="wrap rad-in">
+    <div class="rad-foto">{{ img('foto-06.jpg', 'Modré auto, detail kolesa', sizes='(min-width: 60rem) 36rem, 100vw') }}</div>
+    <div class="rad-text">
+      <h2>Dovoz áut</h2>
+      <p>Kupujete ojazdené auto? Dovážame autá na objednávku s garanciou technického stavu, s pohodlím a odbornou zárukou.</p>
+    </div>
+  </div>
+</section>
+
+<section class="sekce onas">
+  <div class="wrap onas-in">
+    <h2>Firmu založil nadšenec pre autá</h2>
+    <p>Spoločnosť Všetko k autu s.r.o. založil Jozef Hašík. Naším cieľom je poskytovať kvalitné, odborné a komplexné služby pod jednou strechou. S každou otázkou k Vášmu autu sa na nás môžete s dôverou obrátiť.</p>
+  </div>
+</section>
+
+<section class="sekce kontakt" id="kontakt">
+  <div class="wrap kontakt-in">
+    <div>
+      <h2>Potrebujete pomoc?</h2>
+      <address>
+        Všetko k autu, s.r.o.<br>
+        Centrum 27/32<br>
+        017 01 Považská Bystrica<br>
+        IČO {{ site.ico }}
+      </address>
+      <p><a href="tel:+421917582059">+421 917 582 059</a></p>
+      <p><a href="mailto:{{ site.kontakt.email }}">{{ site.kontakt.email }}</a></p>
+      <p>Po–Pi 07:00–16:00</p>
+    </div>
+    {% include "_formular.html" %}
+  </div>
+</section>
+{% endblock %}

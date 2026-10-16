@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="{{ site.lang }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ titulek or site.nazev }}</title>
+<meta name="description" content="{{ popis or site.popis }}">
+{% if site.navrh or noindex %}<meta name="robots" content="noindex, nofollow">{% endif %}
+<meta name="theme-color" content="{{ site.theme_color }}">
+<link rel="canonical" href="{{ site.url }}{{ cesta or '' }}">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="{{ 'cs_CZ' if site.lang == 'cs' else ('sk_SK' if site.lang == 'sk' else site.lang) }}">
+<meta property="og:title" content="{{ titulek or site.nazev }}">
+<meta property="og:description" content="{{ popis or site.popis }}">
+<meta property="og:url" content="{{ site.url }}{{ cesta or '' }}">
+{% if og_url %}<meta property="og:image" content="{{ og_url }}">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">{% endif %}
+<link rel="stylesheet" href="{{ asset('css/style.css') }}">
+{% block head %}{% endblock %}
+{% if jsonld %}<script type="application/ld+json">{{ jsonld|safe }}</script>{% endif %}
+</head>
+<body>
+<a class="skip" href="#obsah">Preskočiť na obsah</a>
+<header class="hlavicka">
+  <div class="wrap">
+    <a href="{{ url('') }}" class="logo">{% if site.logo %}<img src="{{ base }}{{ site.logo }}" alt="{{ site.nazev }}" height="40">{% else %}{{ site.nazev }}{% endif %}</a>
+    <nav aria-label="Hlavné">
+      {% for n in site.nav %}<a href="{{ n.href if n.href.startswith('#') or n.href.startswith('http') else url(n.href) }}">{{ n.text }}</a> {% endfor %}
+    </nav>
+  </div>
+</header>
+<main id="obsah">
+{% block obsah %}{% endblock %}
+</main>
+<footer class="paticka">
+  <div class="wrap">
+    <p>{{ site.nazev }}{% if site.ico %} · IČO {{ site.ico }}{% endif %}</p>
+    {% if site.kontakt.email %}<p><a href="mailto:{{ site.kontakt.email }}">{{ site.kontakt.email }}</a></p>{% endif %}
+    {% if site.kontakt.telefon %}<p><a href="tel:{{ site.kontakt.telefon|replace(' ', '') }}">{{ site.kontakt.telefon }}</a></p>{% endif %}
+  </div>
+</footer>
+<script src="{{ asset('js/main.js') }}" defer></script>
+</body>
+</html>

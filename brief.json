@@ -1,0 +1,251 @@
+{
+ "slug": "vsetkokautu",
+ "zdroj_url": "http://www.vsetkokautu.sk",
+ "firma": "Všetko k autu, s.r.o.",
+ "obor": [
+  "autoservis / auta",
+  "zahrada a venkov"
+ ],
+ "ico": "",
+ "ares": null,
+ "kontakty": {
+  "emaily": [
+   "jozef@vsetkokautu.sk"
+  ],
+  "telefony": [],
+  "adresa": "",
+  "socialni_site": []
+ },
+ "logo": {
+  "soubor": "podklady/logo.jpg",
+  "zdroj": "http://www.vsetkokautu.sk/wp-content/uploads/2018/05/vsetkokautu-logo_BW_2-2.jpg",
+  "rozmery": [
+   512,
+   195
+  ]
+ },
+ "barvy": {
+  "css_promenne": {},
+  "z_css": [
+   "#dd3333",
+   "#003388",
+   "#2874fc",
+   "#22b339",
+   "#ff6900",
+   "#00d084"
+  ],
+  "z_loga": [],
+  "theme_color": null,
+  "doporucene": [
+   "#dd3333",
+   "#003388"
+  ]
+ },
+ "fotky": [
+  {
+   "soubor": "podklady/foto/foto-01.jpg",
+   "url": "http://www.vsetkokautu.sk/wp-content/uploads/2018/03/Slide_1.jpg",
+   "sirka": 1400,
+   "vyska": 557,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-02.jpg",
+   "url": "https://www.vsetkokautu.sk/wp-content/uploads/2024/10/autoservis-3_1400_2w.jpg",
+   "sirka": 1400,
+   "vyska": 557,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-03.jpg",
+   "url": "http://www.vsetkokautu.sk/wp-content/uploads/2018/07/foto3_slaid.jpg",
+   "sirka": 1400,
+   "vyska": 557,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-04.jpg",
+   "url": "http://www.vsetkokautu.sk/wp-content/uploads/2018/06/servis_720.jpg",
+   "sirka": 1080,
+   "vyska": 720,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-05.jpg",
+   "url": "http://www.vsetkokautu.sk/wp-content/uploads/2018/06/classic_720.jpg",
+   "sirka": 1080,
+   "vyska": 720,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-06.jpg",
+   "url": "http://www.vsetkokautu.sk/wp-content/uploads/2018/07/audi_720.jpg",
+   "sirka": 1080,
+   "vyska": 720,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-07.jpg",
+   "url": "http://www.vsetkokautu.sk/wp-content/themes/skt-towing-pro/images/about-towing.jpg",
+   "sirka": 524,
+   "vyska": 290,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-08.jpg",
+   "url": "http://www.vsetkokautu.sk/wp-content/themes/skt-towing-pro/images/testimonial-bg.jpg",
+   "sirka": 1400,
+   "vyska": 415,
+   "alt": ""
+  }
+ ],
+ "fakta": [
+  {
+   "typ": "h2",
+   "text": "Autopoťahy",
+   "zdroj": "https://www.vsetkokautu.sk/"
+  },
+  {
+   "typ": "h2",
+   "text": "Autoservis",
+   "zdroj": "https://www.vsetkokautu.sk/"
+  },
+  {
+   "typ": "h2",
+   "text": "Dovoz áut",
+   "zdroj": "https://www.vsetkokautu.sk/"
+  },
+  {
+   "typ": "h2",
+   "text": "Všetko k autu",
+   "zdroj": "https://www.vsetkokautu.sk/"
+  },
+  {
+   "typ": "h2",
+   "text": "about towing",
+   "zdroj": "https://www.vsetkokautu.sk/"
+  },
+  {
+   "typ": "h2",
+   "text": "Latest News",
+   "zdroj": "https://www.vsetkokautu.sk/"
+  },
+  {
+   "typ": "h2",
+   "text": "Customers Say",
+   "zdroj": "https://www.vsetkokautu.sk/"
+  },
+  {
+   "typ": "h2",
+   "text": "Our Gallery",
+   "zdroj": "https://www.vsetkokautu.sk/"
+  },
+  {
+   "typ": "h2",
+   "text": "Potrebujete pomoc?",
+   "zdroj": "https://www.vsetkokautu.sk/"
+  },
+  {
+   "typ": "h3",
+   "text": "+421 (0) 917 58 20 59",
+   "zdroj": "https://www.vsetkokautu.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Autopoťahy Kolekcie autopoťahov Cenníky autopoťahov Galéria Konfigurátor Rozšírenia BABY paket WINTER paket Vlastné logo / výšivka SHOWROOM Považská Bystrica Montáž autopoťahov Často kladené otázky Ochrana osobných údajov Reklamačný protokol Všeob. obch. podmienky",
+   "zdroj": "https://www.vsetkokautu.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Rozšírenia BABY paket WINTER paket Vlastné logo / výšivka",
+   "zdroj": "https://www.vsetkokautu.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Autoservis AUTOKLIMATIZÁCIE NAŠE PRÁCE – RADY A TIPY Náhradné diely často kladené otázky Reklamačný poriadok Ochrana osobných údajov Reklamačný protokol Všeob. obch. podmienky",
+   "zdroj": "https://www.vsetkokautu.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Autopoťahy na mieru s garanciou kvality a bezpečnosti, nahliadnite do galérie...",
+   "zdroj": "https://www.vsetkokautu.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Dovážame autá na objednávku s garanciou technického stavu",
+   "zdroj": "https://www.vsetkokautu.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Vitajte na našej webovej stránke. Veríme, že sa Vám podarí u nás nájsť VŠETKO čo hľadáte k VÁŠMU AUTU. Našim cieľom je poskytovanie kvalitných, odborných a komplexných služieb pod jednou strechou za výhodné ceny – VŠETKO K AUTU.",
+   "zdroj": "https://www.vsetkokautu.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Pokazilo sa Vám auto? Potrebujete kúpiť náhradný diel? Vidíte s Vašim autíčkom zle v noci? Chceli by ste za autom ťahať prívesný vozík? Sem tam by ste sa radi previezli po teréne? Nasťahovali sa Vám do vyhriatej motorovej časti kuny, alebo hlodavce? Túžite si vynoviť a oživiť interiér? Vaše auto už doslúžilo, alebo potrebujete ďalšie? Alebo už sa pýta aj nové prezutie?",
+   "zdroj": "https://www.vsetkokautu.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Ochotne a radi Vám pomôžeme s každou odpoveďou pre Vaše auto, preto sa s dôverou môžete obrátiť na nás.",
+   "zdroj": "https://www.vsetkokautu.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Spoločnosť Všetko k autu s.r.o. bola založená nadšencom pre automobily rôzneho druhu Jozefom Hašíkom. Dovoľte mi Vám túto spoločnosť predstaviť a uviesť zopár informácií o",
+   "zdroj": "https://www.vsetkokautu.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Ponúkame Vám AUTOPOŤAHY NA MIERU S GARANCIOU KVALITY A BEZPEČNOSTI priamo od slovenského výrobcu MAD ako CERTIFIKOVANÝ AUTORIZOVANÝ PARTNER. Výroba autopoťahov individuálne na mieru je",
+   "zdroj": "https://www.vsetkokautu.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Kupujete ojazdené auto? U nás ste na správnom mieste. Naše heslo znie \"VŠETKO K AUTU\" s POHODLÍM A ODBORNOU ZÁRUKOU! Vyskakuje na Vás množstvo ponúk",
+   "zdroj": "https://www.vsetkokautu.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas imperdiet ex at mauris varius interdum. Fusce mattis gravida libero, nec sollicitudin eros finibus at. Praesent ex diam, mattis vitae efficitur vel, egestas sed neque. Sed congue interdum cursus.",
+   "zdroj": "https://www.vsetkokautu.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Nulla tempus orci ut lorem pellentesque laoreet. Maecenas ornare, nibh facilisis accumsan, tellus metus semper nisl, vel semper lectus mi ac augue. Phasellus laoreet molestie enim vitae feugiat. Nunc commodo quam tincidunt porta cursus. Maecenas id lacinia nisi. Donec malesuada dui eget sem efficitur porta. Sed consequat ipsum ac enim dapibus faucibus. Curabitur a sodales felis. Read More",
+   "zdroj": "https://www.vsetkokautu.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Nulla tempus orci ut lorem pellentesque laoreet. Maecenas ornare, nibh facilisis accumsan, tellus metus semper nisl, vel semper lectus mi ac augue. Phasellus laoreet molestie enim vitae feugiat. Nunc commodo quam tincidunt porta cursus. Maecenas id lacinia nisi. Donec malesuada dui eget sem efficitur porta. Sed consequat ipsum ac enim dapibus faucibus. Curabitur a sodales felis.",
+   "zdroj": "https://www.vsetkokautu.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Phasellus porta. Fusce susct varius mi. Cum sociis natoque penabus et magnis dis parturient montes, nascetur ridiculus mus. Nulla dui. Fusce feugiat malesuada odio. Praesent vestibulum aenean nonummy hendrerit mauris. Hasellus porta. Fusce suscipit varius Nascetur ridiculus mus. Roadside Assistance",
+   "zdroj": "https://www.vsetkokautu.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Phasellus porta. Fusce susct varius mi. Cum sociis natoque penabus et magnis dis parturient montes, nascetur ridiculus mus. Nulla dui. Fusce feugiat malesuada odio. Praesent vestibulum aenean nonummy hendrerit mauris. Hasellus porta. Fusce suscipit varius Nascetur ridiculus mus.",
+   "zdroj": "https://www.vsetkokautu.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Phasellus porta. Fusce susct varius mi. Cum sociis natoque penabus et magnis dis parturient montes, nascetur ridiculus mus. Nulla dui. Fusce feugiat malesuada odio. Praesent vestibulum aenean nonummy hendrerit mauris. Hasellus porta. Fusce suscipit varius Nascetur ridiculus mus. \"Aliquam et varius orci, ut ornare justo. Lorem ipsum dolor sit amet\"",
+   "zdroj": "https://www.vsetkokautu.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Phasellus porta. Fusce susct varius mi. Cum sociis natoque penabus et magnis dis parturient montes, nascetur ridiculus mus. Nulla dui. Fusce feugiat malesuada odio. Praesent vestibulum aenean nonummy hendrerit mauris. Hasellus porta. Fusce suscipit varius Nascetur ridiculus mus.",
+   "zdroj": "https://www.vsetkokautu.sk/"
+  }
+ ],
+ "chybi": [
+  "telefon (do webu, ne do mailů)",
+  "IČO",
+  "adresa / provozovna",
+  "potvrzení služeb a ceníku (nic nevymýšlet)"
+ ],
+ "popis_webu": "Všetko k autu"
+}

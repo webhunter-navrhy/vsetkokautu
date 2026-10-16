@@ -1,0 +1,53 @@
+{
+  "slug": "vsetkokautu",
+  "nazev": "Všetko k autu, s.r.o.",
+  "url": "https://webhunter-navrhy.github.io/vsetkokautu/",
+  "base": "/vsetkokautu/",
+  "lang": "sk",
+  "popis": "Autopoťahy na mieru, autoservis a dovoz áut na objednávku v Považskej Bystrici. Všetko k autu pod jednou strechou.",
+  "navrh": true,
+  "domena": "",
+  "og_image": "foto-02.jpg",
+  "logo": "logo.png",
+  "theme_color": "#1a1b1f",
+  "typ": "AutoRepair",
+  "ico": "51075296",
+  "kontakt": {
+    "email": "jozef@vsetkokautu.sk",
+    "telefon": "+421 917 582 059",
+    "adresa": {
+      "ulice": "Centrum 27/32",
+      "psc": "017 01",
+      "mesto": "Považská Bystrica",
+      "zeme": "SK"
+    }
+  },
+  "oteviraci_doba": [
+    "Mo-Fr 07:00-16:00"
+  ],
+  "sameas": [],
+  "cenove_rozpeti": "",
+  "formular": {
+    "endpoint": "",
+    "demo": true,
+    "predmet": "Dopyt z webu"
+  },
+  "nav": [
+    {
+      "text": "Autopoťahy",
+      "href": "#potahy"
+    },
+    {
+      "text": "Autoservis",
+      "href": "#servis"
+    },
+    {
+      "text": "Dovoz áut",
+      "href": "#dovoz"
+    },
+    {
+      "text": "Kontakt",
+      "href": "#kontakt"
+    }
+  ]
+}
