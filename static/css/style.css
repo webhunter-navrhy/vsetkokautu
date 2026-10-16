@@ -110,3 +110,4 @@ h2 { font-size:var(--step-4); }
 .paticka .wrap { display:flex; flex-wrap:wrap; gap:.5rem 2rem; }
 .reveal { opacity:0; transform:translateY(12px); transition:opacity .6s,transform .6s; }
 .reveal.vidno { opacity:1; transform:none; }
+.pas a, .kontakt p a { display:inline-flex; align-items:center; min-height:44px; }
