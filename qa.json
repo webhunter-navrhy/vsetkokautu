@@ -2,7 +2,9 @@
   "url": "https://webhunter-navrhy.github.io/vsetkokautu/",
   "ok": true,
   "chyby": [],
-  "varovani": [],
+  "varovani": [
+    "Dotykové cíle <40 px na mobilu: 1× (např. a.logo \"\" 120×38)"
+  ],
   "metriky": {
     "sirky": {
       "1440": {
@@ -32,16 +34,16 @@
     },
     "preneseno_PC_MB": 0.24,
     "nejvetsi_obrazek_PC": {
-      "kB": 74,
+      "kB": 73,
       "url": "https://webhunter-navrhy.github.io/vsetkokautu/img/foto-02-1400.webp"
     },
     "snimku_PC": 4,
     "preneseno_mobil_MB": 0.35,
     "nejvetsi_obrazek_mobil": {
-      "kB": 95,
+      "kB": 94,
       "url": "https://webhunter-navrhy.github.io/vsetkokautu/img/foto-05-1080.webp"
     },
-    "snimku_mobil": 5,
+    "snimku_mobil": 6,
     "seo": {
       "title": "Všetko k autu – autopoťahy, autoservis a dovoz áut, Považská Bystrica",
       "description": "Autopoťahy na mieru, autoservis a dovoz áut na objednávku v Považskej Bystrici. Všetko k autu pod je",
@@ -56,7 +58,7 @@
       "canonical": true,
       "viewport": true
     },
-    "maly_dotykovy_cil": 0,
+    "maly_dotykovy_cil": 1,
     "font_nadpis": "Barlow Condensed",
     "font_text": "Barlow"
   }

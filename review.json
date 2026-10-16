@@ -1,16 +1,16 @@
 {
-  "znamka": 6,
+  "znamka": 7,
   "slabiny": [
-    "Sekce služeb (Autopoťahy, Autoservis, Dovoz áut) na 1440 px: je to třikrát za sebou stejný zig-zag. Malá fotka zabírá zhruba čtvrtinu šířky, vedle jsou 2–3 řádky textu kolem 14 px a zbytek je prázdná bílá plocha. Sekce O nás je jen šedý pruh s jedním odstavcem. Celé to působí jako generická šablona autoservisu a myšlenka „pod jednou strechou“ se nikde nepropisuje. Oprava: hned pod hero dát rozcestník ze tří velkých fotodlaždic (poťahy, servis, dovoz) s červeným štítkem a odkazem. Každou službu pak udělat jako plnou sekci s fotkou přes ≥ 50 % šířky a s reálným obsahem z briefu: Rozšírenia (BABY/WINTER/výšivka/Montáž), Autoklimatizácie a Náhradné diely, seznam otázek „Pokazilo sa Vám auto? … kuny … prezutie“ jako přehled toho, s čím pomůžou. Text zvětšit na 17–18 px.",
-    "Mobil 390/360 px, hlavička: menu se zalamuje do dvou řádků (Autopoťahy, Autoservis, Dovoz áut / Kontakt). Tmavá fixní hlavička tak zabere asi 125 px výšky a horní okraj loga je useknutý. Oprava: kompaktní hlavička 56–64 px, vlevo celé logo, vpravo hamburger (případně červené tlačítko „Zavolať“), menu schovat do panelu. Ověřit, že kotvy mají scroll-margin-top a sekce nezajíždějí pod hlavičku.",
-    "Patička a kontakt: uvedené údaje Po–Pi 07:00–16:00, adresa Centrum 27/32, 017 01 Považská Bystrica a IČO 51075296 nemají zdroj v brief.json. Pole ico i adresa jsou prázdná a všechny tři údaje jsou v seznamu „chybi“. Totéž platí pro otvírací dobu v červeném pruhu pod hero. Oprava: IČO a adresu ověřit v ORSR/ARES SK nebo na původním webu a zapsat do briefu se zdrojem. Otvírací dobu buď doložit, nebo ji z pruhu i z kontaktu odstranit a pruh nechat jen s adresou a telefonem."
+    "Červený pruh pod hero, na 1440 px vpravo a na 390/360 px na samostatném řádku pod adresou: je tam holé písmeno „X“. Působí jako rozbitý zbytek zavíracího tlačítka a je vidět hned na první obrazovce. Oprava: pruh nemá jít zavřít, takže „X“ úplně odstranit. Na mobilu nechat dva čisté řádky, Po–Pi 07:00–16:00 a Centrum 27/32, 017 01 Považská Bystrica, plus odkaz na telefon.",
+    "Sekce O nás „Firmu založil nadšenec pre autá“ je pořád šedý pruh s jedním odstavcem o třech řádcích a kolem je asi 200 px prázdné plochy (PC buňka 4, mobil buňka 6). Seznam otázek z briefu je jen zkrácený do jedné věty u Autoservisu, takže myšlenka „pod jednou strechou“ se zatím nepropisuje. Oprava: O nás rozšířit na dva sloupce. Vlevo fotka dílny foto-01 přes ≥ 50 % šířky. Vpravo text o Jozefu Hašíkovi a věta z briefu „Veríme, že sa Vám podarí u nás nájsť VŠETKO čo hľadáte k VÁŠMU AUTU“. Pod tím mřížka „S čím Vám pomôžeme“ s celým seznamem z briefu (pokazené auto, náhradný diel, svetlá v noci, ťažné zariadenie, terén, kuny a hlodavce, interiér, ďalšie auto, prezutie), jen texty bez ikon.",
+    "Mobil 390/360 px, hlavička: vpravo je jen tlačítko „Zavolať“ a navigace chybí úplně, na sekce Autopoťahy, Autoservis, Dovoz áut a Kontakt se z hlavičky nedá skočit. QA navíc hlásí, že logo jako odkaz má dotykovou plochu jen 120×38 px. Oprava: vedle „Zavolať“ přidat hamburger aspoň 44×44 px. Otevře panel se čtyřmi kotvami a ty musí mít scroll-margin-top podle výšky hlavičky. Odkaz loga zvětšit na výšku ≥ 44 px, ve stejné výšce hlavičky jde přidat vnitřní odsazení."
   ],
   "silne": [
-    "Logo klienta je vlevo v hlavičce celé a ostré. Brandová červená #dd3333 je použitá důsledně v CTA, štítku i pruhu s kontakty.",
-    "Barlow Condensed ve verzálkách sedí k automobilovému oboru, slovenská diakritika (ť, ô, á) se kreslí správně a hierarchie nadpisů je jasná.",
-    "Na webu jsou jen fotky klienta (dílna, sedačka s potahem MAD, brzdy), bez cizích stocků. Web je technicky čistý: 0,24 MB, bez přetečení, bez marquee, grainu a číslování.",
-    "Hero do 5 s řekne, co firma dělá a kde. Hlavní akce „Napísať nám“, telefon v pruhu a kontaktní formulář jsou snadno k nalezení."
+    "Rozcestník ze tří fotodlaždic s červeným štítkem hned pod hero dobře nese myšlenku „všetko pod jednou strechou“ na PC i na mobilu.",
+    "Služby mají reálný obsah z briefu: MAD, BABY a WINTER paket, výšivka, Montáž, Autoklimatizácie, Náhradné diely. Fotky jsou velké a sekce se střídají ve světlé a tmavé, takže už to nepůsobí jako tři stejné řádky.",
+    "Brand drží: logo klienta vlevo, červená #dd3333 z jeho webu, jeho vlastní fotky. Barlow Condensed má háčky v pořádku a nejsou tu žádné AI vzory (marquee, číslování, grain).",
+    "Kompaktní mobilní hlavička s celým logem a tlačítkem „Zavolať“. IČO, adresa a otvírací doba teď mají zdroj v briefu. Žádné přetečení na 6 šířkách a stránka má jen 0,24 MB."
   ],
-  "verdikt": "opravit – web je technicky v pořádku a brand drží, ale skladba je generická a sekce služeb jsou prázdné, mobilní hlavička je nedotažená a kontaktní údaje nemají zdroj. Před odesláním klientovi potřebuje nápad „pod jednou strechou“ promítnutý do celé skladby.",
-  "_hash": "1d8094f1f9870251cca98cd07354032276ef24f3"
+  "verdikt": "opravit – výtky k hlavičce a k nedoloženým údajům jsou opravené a služby se výrazně zlepšily. Odeslání ale brzdí holé „X“ v pruhu pod hero, slabá sekce O nás bez přehledu „s čím pomôžeme“ a chybějící navigace na mobilu.",
+  "_hash": "6ab6ed75b61c0a876301d0137936357586d76c0a"
 }
