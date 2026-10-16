@@ -111,3 +111,29 @@ h2 { font-size:var(--step-4); }
 .reveal { opacity:0; transform:translateY(12px); transition:opacity .6s,transform .6s; }
 .reveal.vidno { opacity:1; transform:none; }
 .pas a, .kontakt p a { display:inline-flex; align-items:center; min-height:44px; }
+.rad-text p { font-size:var(--step-1); line-height:1.55; }
+.rad-text .znacky li { font-size:var(--step-0); }
+.rad-foto img { aspect-ratio:4/3; }
+.sekce.rad { padding-block:var(--space-5); }
+@media (min-width:60rem){ .rad-in { grid-template-columns:1.25fr 1fr; } .obratene.rad-in { grid-template-columns:1fr 1.25fr; } }
+.onas-in p { font-size:var(--step-1); }
+.rozcestnik { padding-block:var(--space-5) 0; }
+.dlazdice { display:grid; gap:var(--space-2); }
+@media (min-width:50rem){ .dlazdice { grid-template-columns:repeat(3,1fr); } }
+.dlazdice a { position:relative; display:block; color:#fff; text-decoration:none; overflow:hidden; background:var(--dark); }
+.dlazdice img { width:100%; aspect-ratio:4/3; object-fit:cover; transition:transform .5s; }
+.dlazdice a:hover img { transform:scale(1.04); }
+.dlazdice a::after { content:''; position:absolute; inset:0; background:linear-gradient(0deg,rgba(26,27,31,.85),transparent 55%); }
+.stitek { position:absolute; left:0; top:1rem; z-index:1; background:var(--accent); font-family:var(--font-head); font-size:var(--step-2); text-transform:uppercase; font-weight:600; padding:.15em .7em; }
+.dl-text { position:absolute; left:1rem; bottom:1rem; z-index:1; font-weight:600; font-size:var(--step-0); }
+.tlacitko-riadok { margin-top:var(--space-1); }
+[id] { scroll-margin-top:5rem; }
+.hl-tel { display:none; background:var(--accent); color:#fff; text-decoration:none; font-weight:600; padding:0 1.1rem; align-items:center; min-height:44px; text-transform:uppercase; }
+@media (max-width:47.99rem){
+  .hlavicka .wrap { flex-wrap:nowrap; min-height:3.75rem; }
+  .hlavicka nav { display:none; }
+  .hl-tel { display:inline-flex; }
+  .hlavicka .logo img { height:2.4rem; }
+  .pas-in { flex-direction:column; }
+  [id] { scroll-margin-top:4rem; }
+}

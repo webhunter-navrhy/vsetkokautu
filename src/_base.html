@@ -28,6 +28,7 @@
     <nav aria-label="Hlavné">
       {% for n in site.nav %}<a href="{{ n.href if n.href.startswith('#') or n.href.startswith('http') else url(n.href) }}">{{ n.text }}</a> {% endfor %}
     </nav>
+    <a class="hl-tel" href="tel:{{ site.kontakt.telefon|replace(' ', '') }}">Zavolať</a>
   </div>
 </header>
 <main id="obsah">

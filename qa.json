@@ -1,0 +1,63 @@
+{
+  "url": "https://webhunter-navrhy.github.io/vsetkokautu/",
+  "ok": true,
+  "chyby": [],
+  "varovani": [],
+  "metriky": {
+    "sirky": {
+      "1440": {
+        "scrollWidth": 1440,
+        "pocet_pretekajicich": 0
+      },
+      "1280": {
+        "scrollWidth": 1280,
+        "pocet_pretekajicich": 0
+      },
+      "1024": {
+        "scrollWidth": 1024,
+        "pocet_pretekajicich": 0
+      },
+      "820": {
+        "scrollWidth": 820,
+        "pocet_pretekajicich": 0
+      },
+      "390": {
+        "scrollWidth": 390,
+        "pocet_pretekajicich": 0
+      },
+      "360": {
+        "scrollWidth": 360,
+        "pocet_pretekajicich": 0
+      }
+    },
+    "preneseno_PC_MB": 0.24,
+    "nejvetsi_obrazek_PC": {
+      "kB": 74,
+      "url": "https://webhunter-navrhy.github.io/vsetkokautu/img/foto-02-1400.webp"
+    },
+    "snimku_PC": 4,
+    "preneseno_mobil_MB": 0.35,
+    "nejvetsi_obrazek_mobil": {
+      "kB": 95,
+      "url": "https://webhunter-navrhy.github.io/vsetkokautu/img/foto-05-1080.webp"
+    },
+    "snimku_mobil": 5,
+    "seo": {
+      "title": "Všetko k autu – autopoťahy, autoservis a dovoz áut, Považská Bystrica",
+      "description": "Autopoťahy na mieru, autoservis a dovoz áut na objednávku v Považskej Bystrici. Všetko k autu pod je",
+      "lang": "sk",
+      "h1": 1,
+      "jsonld": [
+        true
+      ],
+      "robots": "noindex, nofollow",
+      "og_image": "https://webhunter-navrhy.github.io/vsetkokautu/og.jpg",
+      "bez_v": [],
+      "canonical": true,
+      "viewport": true
+    },
+    "maly_dotykovy_cil": 0,
+    "font_nadpis": "Barlow Condensed",
+    "font_text": "Barlow"
+  }
+}

@@ -6,15 +6,19 @@
   "autoservis / auta",
   "zahrada a venkov"
  ],
- "ico": "",
+ "ico": "51075296",
  "ares": null,
  "kontakty": {
   "emaily": [
    "jozef@vsetkokautu.sk"
   ],
-  "telefony": [],
-  "adresa": "",
-  "socialni_site": []
+  "telefony": [
+   "+421 917 582 059"
+  ],
+  "adresa": "Centrum 27/32, 017 01 Považská Bystrica",
+  "socialni_site": [],
+  "oteviraci_doba": "PO-PI 07:00-16:00",
+  "zdroj": "https://www.vsetkokautu.sk/ (hlavička a patička)"
  },
  "logo": {
   "soubor": "podklady/logo.jpg",
@@ -242,10 +246,8 @@
   }
  ],
  "chybi": [
-  "telefon (do webu, ne do mailů)",
-  "IČO",
-  "adresa / provozovna",
   "potvrzení služeb a ceníku (nic nevymýšlet)"
  ],
- "popis_webu": "Všetko k autu"
+ "popis_webu": "Všetko k autu",
+ "ico_zdroj": "recipients.csv kampaně (DATABAZE_SK)"
 }

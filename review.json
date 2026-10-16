@@ -1,0 +1,16 @@
+{
+  "znamka": 6,
+  "slabiny": [
+    "Sekce služeb (Autopoťahy, Autoservis, Dovoz áut) na 1440 px: je to třikrát za sebou stejný zig-zag. Malá fotka zabírá zhruba čtvrtinu šířky, vedle jsou 2–3 řádky textu kolem 14 px a zbytek je prázdná bílá plocha. Sekce O nás je jen šedý pruh s jedním odstavcem. Celé to působí jako generická šablona autoservisu a myšlenka „pod jednou strechou“ se nikde nepropisuje. Oprava: hned pod hero dát rozcestník ze tří velkých fotodlaždic (poťahy, servis, dovoz) s červeným štítkem a odkazem. Každou službu pak udělat jako plnou sekci s fotkou přes ≥ 50 % šířky a s reálným obsahem z briefu: Rozšírenia (BABY/WINTER/výšivka/Montáž), Autoklimatizácie a Náhradné diely, seznam otázek „Pokazilo sa Vám auto? … kuny … prezutie“ jako přehled toho, s čím pomůžou. Text zvětšit na 17–18 px.",
+    "Mobil 390/360 px, hlavička: menu se zalamuje do dvou řádků (Autopoťahy, Autoservis, Dovoz áut / Kontakt). Tmavá fixní hlavička tak zabere asi 125 px výšky a horní okraj loga je useknutý. Oprava: kompaktní hlavička 56–64 px, vlevo celé logo, vpravo hamburger (případně červené tlačítko „Zavolať“), menu schovat do panelu. Ověřit, že kotvy mají scroll-margin-top a sekce nezajíždějí pod hlavičku.",
+    "Patička a kontakt: uvedené údaje Po–Pi 07:00–16:00, adresa Centrum 27/32, 017 01 Považská Bystrica a IČO 51075296 nemají zdroj v brief.json. Pole ico i adresa jsou prázdná a všechny tři údaje jsou v seznamu „chybi“. Totéž platí pro otvírací dobu v červeném pruhu pod hero. Oprava: IČO a adresu ověřit v ORSR/ARES SK nebo na původním webu a zapsat do briefu se zdrojem. Otvírací dobu buď doložit, nebo ji z pruhu i z kontaktu odstranit a pruh nechat jen s adresou a telefonem."
+  ],
+  "silne": [
+    "Logo klienta je vlevo v hlavičce celé a ostré. Brandová červená #dd3333 je použitá důsledně v CTA, štítku i pruhu s kontakty.",
+    "Barlow Condensed ve verzálkách sedí k automobilovému oboru, slovenská diakritika (ť, ô, á) se kreslí správně a hierarchie nadpisů je jasná.",
+    "Na webu jsou jen fotky klienta (dílna, sedačka s potahem MAD, brzdy), bez cizích stocků. Web je technicky čistý: 0,24 MB, bez přetečení, bez marquee, grainu a číslování.",
+    "Hero do 5 s řekne, co firma dělá a kde. Hlavní akce „Napísať nám“, telefon v pruhu a kontaktní formulář jsou snadno k nalezení."
+  ],
+  "verdikt": "opravit – web je technicky v pořádku a brand drží, ale skladba je generická a sekce služeb jsou prázdné, mobilní hlavička je nedotažená a kontaktní údaje nemají zdroj. Před odesláním klientovi potřebuje nápad „pod jednou strechou“ promítnutý do celé skladby.",
+  "_hash": "1d8094f1f9870251cca98cd07354032276ef24f3"
+}
